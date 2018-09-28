@@ -1,0 +1,75 @@
+@font-face{
+    font-family: fontnew;
+    src: url('../fonts/All Square Now.otf');
+}
+
+.titulo{
+    font-family: "fontnew";
+    font-size: 100px;
+    text-align: center;
+    color: #eae0c2;
+}
+
+.letraCode{
+    font-family: "fontnew";
+    text-align: center;
+    color: #eae0c2;
+}
+
+.letra{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+#container {
+  /*  text-align: center;
+*/
+}
+
+.externa {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    float: left;
+    width: 200px; height: 200px;
+    margin: 10px 20px;
+}
+
+#box-1 { background-color: #403E33; }
+#box-2 { background-color: green; }
+#box-3 { background-color: pink; }
+
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+.codigo{
+    width: 280px;
+    height: 30px;
+	margin: 0 auto 0 auto;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #eae0c2;
+    background-color: #202020;
+    color: #fff;
+}
+
+button {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    border: 2px solid #eae0c2;
+    padding: 10px 80px;
+}
